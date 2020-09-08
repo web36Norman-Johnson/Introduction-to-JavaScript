@@ -1,32 +1,43 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
+console.log('********** Task 1 a **********');
+var votingAge 
 
-
+console.log("true if age >18");
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+console.log('********** Task 1 b **********');
+
 
 
 
 
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
-
+console.log('********** Task 1 c **********');
+Number("1999");
 
 
 
 
 //Task d: Write a function to multiply a*b 
-
-
-
+console.log('********** Task 1 d **********');
+function multiply(param1, param2){
+return(param1 * param2);
+}
+console.log(4*5);
 
 
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-
+console.log('********** Task 2 **********');
+function imReallyOld(dogYears, age){
+return(dogYears * age);
+}
+console.log(7*51);
 
 
 
@@ -48,7 +59,7 @@
 // 7 - 12 months 4% of their body weight
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
-  
+console.log('********** Task 3 **********');  
 
 
 
@@ -59,7 +70,7 @@
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
-
+console.log('********** Task 4 **********');
   
   
 
@@ -72,7 +83,7 @@
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
-  
+console.log('********** Task 5 **********');  
 
 
 
@@ -81,7 +92,7 @@
 // 99 bottles of soda on the wall
 // create a function called annoyingSong
 // the function should take a starting number as an argument and count down - at each iteration it should log (number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall`
-  
+console.log('********** Task 6 **********');  
 
 
 
@@ -94,7 +105,7 @@
 //70s should be Cs 
 //60s should be D 
 //and anything below 60 should be F
-  
+console.log('********** Task 7 **********');
 
   
   
@@ -103,7 +114,7 @@
 //Create a function that counts the number of vowels within a string. It should handle both capitalized and uncapitalized vowels.
 // Hint - you may need to study tomorrow's traning kit on arrays 
 // try looking up the .includes() method
-
+console.log('********** Task 8 **********');
 
 
 
