@@ -70,7 +70,11 @@ console.log(7*51);
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
 console.log('********** Task 3 **********');  
-
+// function dogFeeder(age, weight) {
+//     if (age = 1 *  weight <= 5) {
+// return (5%);
+//     }
+// }
 
 
 
@@ -87,15 +91,21 @@ console.log('********** Task 4 **********');
 /************************************************************** Task 5 **************************************************************/
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
-
+console.log('********** Task 5 a **********');  
+let kilometers = (7);
+let multiplier = 0.6213;
+let miles = kilometers * multiplier
+console.log(7*0.6213);
 
 
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
-console.log('********** Task 5 **********');  
-
-
+console.log('********** Task 5 b **********');  
+let feet = (25);
+let divider = 0.0328;
+let CM = feet / divider
+console.log(25/0.0328);
 
 
 /************************************************************** Task 6 **************************************************************/
@@ -103,7 +113,11 @@ console.log('********** Task 5 **********');
 // create a function called annoyingSong
 // the function should take a starting number as an argument and count down - at each iteration it should log (number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall`
 console.log('********** Task 6 **********');  
-
+function annoyingSong(bottles1, bottles2){
+    for(let i = 99; i > bottles1; i--){
+        
+    };
+}
 
 
 
@@ -116,6 +130,20 @@ console.log('********** Task 6 **********');
 //60s should be D 
 //and anything below 60 should be F
 console.log('********** Task 7 **********');
+function grades(){
+    if(grades <= 59){
+        return ("F");
+    }else if(grades = 60 && grades <=69){
+        return ("D");
+    }else if(grades = 70 && grades <=79){
+        return ("C");
+    }else if(grades = 80 && grades <=89){
+        return ("B");
+    }else{
+        return ("A");
+    }
+}
+console.log(grades);
 
   
   
@@ -124,7 +152,7 @@ console.log('********** Task 7 **********');
 //Create a function that counts the number of vowels within a string. It should handle both capitalized and uncapitalized vowels.
 // Hint - you may need to study tomorrow's traning kit on arrays 
 // try looking up the .includes() method
-console.log('********** Task 8 **********');
+
 
 
 
